@@ -1,0 +1,18 @@
+{
+  "name": "simple-http-server",
+  "version": "1.0.0",
+  "description": "Builds basic HTTP server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "author": "Princess-Osaani Hornage",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "eslint": "^8.33.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.27.5"
+  }
+}
